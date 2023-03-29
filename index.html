@@ -4,10 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Single Page App</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript" src="./index.js"></script>
+    <title>Random "" Generator App</title>
 </head>
-<body>
-    
-    
+
+<body id="lightModeOn">
+    <main>
+        <h1>Welcome to my Phase 1 Project</h1>
+        <button type="button" id="darkMode">Toggle Dark Mode</button>
+        <p>This site highlights the opportunity for users to generate random dog facts at the click of a button!</p>
+        
+        <button type="button" id="randmnBtn">Annoying Button!</button>
+        <h2>Dog Facts!</h2>
+        <button type="button" id="dogImg">Click For New Dog Fact</button>
+        <h2>Do you have a cute dog fact to add?</h2>
+        <form id="form1">
+            <label for="factInfo">Dog Fact:</label>
+            <input type="text" id="factInfo" name="factInfo"><br>
+        </form>
+        <button type="submit" id="submit" form="form1" value="Submit">Submit</button>
+    </main>
 </body>
 </html>
+
