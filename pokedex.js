@@ -16,6 +16,8 @@ window.onload = async function() {
 
     }
 
+    document.getElementById("pokemon-description").innerText = pokedex[1]["desc"];
+
     console.log(pokedex);
 }
 
@@ -56,4 +58,16 @@ for (let i = 0; i < types.length; i++) {
     type.classList.add("type-box");
     type.classList.add(types[i]["type"]["name"]); //adds background color and font color
     typesDiv.append(type);
-}}
+}
+
+//update description
+document.getElementById("pokemon-description").innerText = pokedex[this.id]["desc"];
+
+
+
+
+
+
+
+
+}
