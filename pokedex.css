@@ -9,30 +9,22 @@ body {
     height: 500px;
     border: 10px solid lightgray;
     border-radius: 10px;
-
-    /* background-color: green;*/
     display: flex;
-
     margin: 0 auto;
     margin-top: 60px;
-
     background: url("./img/pokeball.jpg") no-repeat;
     background-size: cover;
-
 }
 
 #pokemon-info {
     width: 250px;
     height: 500px;
-    /* background-color: cyan;*/
     text-align: center;
-
 }
 
 #pokemon-list {
     width: 250px;
     height: 500px;
-    /* background-color: yellow;*/
     font-size: 18px;
     overflow-y: auto;
 }
@@ -43,6 +35,19 @@ body {
     background-color: white;
     margin: 5px;
     padding: 5px;
+}
+
+#pokemon-description {
+    width: 230px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 2px;
+    font-size: 18px;
+    overflow-y: auto;
 }
 
 #pokemon-info img {
@@ -64,7 +69,6 @@ body {
     border: 1px solid white;
     border-radius: 10px;
 }
-
 
 /*Pokemon Types Decoration Section*/
 .normal {
@@ -155,18 +159,4 @@ body {
 .poison {
     background-color: darkviolet;
     color: white;
-}
-
-#pokemon-description {
-    width: 230px;
-    height: 100px;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 10px;
-
-    margin: 0 auto;
-    margin-top: 10px;
-    padding: 2px;
-    font-size: 18px;
-    overflow-y: auto;
 }
