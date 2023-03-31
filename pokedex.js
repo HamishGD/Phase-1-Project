@@ -12,6 +12,7 @@ window.onload = async function() {
     pokemon.innerText = i.toString() + ". " + pokedex[i]["name"].toUpperCase();
     pokemon.classList.add("pokemon-name");
     document.getElementById("pokemon-list").append(pokemon);
+    pokemon.addEventListener("click", updatePokemon);
 
     }
 
@@ -38,6 +39,18 @@ async function getPokemon(num) {
     pokedex[num] = {"name" : pokemonName, "img" : pokemonImg, "types" : pokemonType, "desc" : pokemonDesc}
 }
 
+function updatePokemon(){
+    document.getElementById("pokemon-img").src = pokedex[this.id]["img"];
 
+    //clear previous type
+    let typesDiv = document.getElementById("pokemon-types");
+    while(!typesDiv.firstChild) {
+    types.Div.firstChild.remove();
+}
 
-
+//update types
+let types = pokedex[this.id]["types"];
+for (let i = 0; i < types.length; i++) {
+    let type = document.createElement("span");
+    type.innerText = types[i]["types"]["name"].toUpperCase();
+}}
