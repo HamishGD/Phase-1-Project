@@ -1,4 +1,6 @@
 body {
+    background: url("./img/60-606405_pokemon-ash-and-pikachu-wallpaper-x-and-y.jpg") no-repeat;
+    background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -15,6 +17,7 @@ body {
     margin-top: 60px;
 
     background: url("./img/pokeball.jpg") no-repeat;
+    background-size: cover;
 
 }
 
