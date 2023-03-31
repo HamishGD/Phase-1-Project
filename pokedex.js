@@ -44,13 +44,16 @@ function updatePokemon(){
 
     //clear previous type
     let typesDiv = document.getElementById("pokemon-types");
-    while(!typesDiv.firstChild) {
-    types.Div.firstChild.remove();
+    while(typesDiv.firstChild) {
+    typesDiv.firstChild.remove();
 }
 
 //update types
 let types = pokedex[this.id]["types"];
 for (let i = 0; i < types.length; i++) {
     let type = document.createElement("span");
-    type.innerText = types[i]["types"]["name"].toUpperCase();
+    type.innerText = types[i]["type"]["name"].toUpperCase();
+    type.classList.add("type-box");
+    type.classList.add(types[i]["type"]["name"]); //adds background color and font color
+    typesDiv.append(type);
 }}
