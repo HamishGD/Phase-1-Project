@@ -116,19 +116,6 @@ body {
     font-size: 20px;
 }
 
-.poke-move {
-    color: orange;
-    font-size: 20px;
-    align-items: center;
-    background:#DEDEDE;
-    border-radius: 50%;
-    border: 2px solid dimgray;
-    color: #DEDEDE;
-    display: flex;
-    height: 35px;
-    width: 35px;
-}
-
 .screen-image {
     display: flex;
     justify-content: space-around;
