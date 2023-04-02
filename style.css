@@ -49,7 +49,6 @@ body {
     background: #96F1FF;
     border-radius: 50%;
     border: 2px solid white;
-    /*box shadow insert here?*/
     height: 35px;
     width: 35px;
 }
@@ -80,13 +79,13 @@ body {
 }
 
 .main-section_white {
-    background: #DEDEDE;
+    background: white;
     border: 3px solid black;
     height: 400px;
 }
 
 .main-section_black {
-    background: #000000;
+    background: black;
     height: calc(100% - 50px);
     width: calc(100% - 50px);
     margin: 25px;
@@ -106,14 +105,14 @@ body {
 }
 
 .poke-name {
-    color: #DEDEDE;
-    font-size: 25px;
+    color: white;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .poke-id {
     color: #000000;
-    font-size: 20px;
+    font-size: 10px;
 }
 
 .screen-image {
@@ -122,8 +121,8 @@ body {
 }
 
 .poke-front-image, .poke-back-image {
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
 }
 
 .screen_description {
@@ -133,11 +132,11 @@ body {
 }
 
 .screen_stats {
-    background: #000000;
+    background: black;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
-    color: #DEDEDE;
+    color: white;
     height: 100%;
     justify-content: space-between;
     padding: 20px 15px;
@@ -149,7 +148,7 @@ body {
 }
 
 .poke-type-one, .poke-type-two {
-    background: #556688;
+    background: white;
     border-radius: 25px;
     display: block;
     margin-bottom: 10px;
@@ -292,7 +291,7 @@ body {
 }
 
 .right-container_black {
-    background: #000000;
+    background: black;
     height: 400px;
     padding: 4px;
 }
@@ -314,7 +313,6 @@ body {
     color: white;
     cursor: pointer;
     font-size: 12px;
-    font-family: 'Roboto', sans-serif;
     height: 25px;
     overflow-x: hidden;
     padding-left: 5px;
@@ -323,12 +321,12 @@ body {
 
 .list-item:hover {
     background: #85cbf2;
-    color: #000000;
+    color: black;
 }
 
 .list-item:active {
     background: #1280f2;
-    color: #DEDEDE;
+    color: white;
 }
 
 /*prev & next buttons*/
@@ -341,7 +339,7 @@ body {
 .left-button, .right-button {
     align-items: center;
     display: flex;
-    background: #DEDEDE;
+    background: white;
     border-radius: 4px;
     font-weight: bold;
     height: 35px;
@@ -352,11 +350,11 @@ body {
 }
 
 .left-button:hover, .right-button:hover {
-    background: #DEDEDE;
+    background: white;
 }
 
 .left-button:active, .right-button:active {
-    box-shadow: #000000;
+    box-shadow: black;
 }
 
 .hide {
