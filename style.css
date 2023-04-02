@@ -134,8 +134,8 @@ body {
 }
 
 .poke-front-image, .poke-back-image {
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
 }
 
 .screen_description {
@@ -311,7 +311,7 @@ body {
 
 .right-container_screen {
     background: #43B0F2;
-    border-radius: 15px;
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -355,7 +355,7 @@ body {
     background: #DEDEDE;
     border-radius: 4px;
     font-weight: bold;
-    height: 30px;
+    height: 35px;
     cursor: pointer;
     justify-content: center;
     text-transform: uppercase;
@@ -427,7 +427,7 @@ body {
     background: #FDE139;
 }
 
-.pyshic {
+.psychic {
     background: #FA65B4;
 }
 
