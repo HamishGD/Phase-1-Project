@@ -96,7 +96,7 @@ fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
     });
 };
 
-//fetch next url link upon click of button (next pokemon in order)
+//fetch next url link upon click of button (next pokemon list)
 const handleLeftButtonClick = () => {
     if (prevUrl) {
         fetchPokeList(prevUrl);
