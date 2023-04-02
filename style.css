@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-/*main class section*/
+/*MAIN CLASS section*/
 body {
     display: flex;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -18,7 +18,7 @@ body {
     width: 800px;
 }
 
-/*left side section*/
+/*pokedex section LEFT SIDE*/
 .left-container, .right-container {
     border: 3px solid black;
     width: 50%;
@@ -33,6 +33,75 @@ body {
     height: 100%;
     width: calc(50% + 50px);
 }
+
+.left-container_top-section {
+    border-bottom: 3px solid black;
+    display: flex;
+    height: 50px;
+    padding: 8px;
+}
+
+/*TOP LEFT BUTTON SECTION
+/*little blue power light section like on an actual pokedex*/
+.top-section_blue {
+    background: radial-gradient(farthest-corner at 10px 10px, white, #369CD4);
+    border-radius: 50%;
+    border: 2px solid white;
+    /*box shadow insert here?*/
+    height: 30px;
+    width: 30px;
+}
+
+.top-section_small-buttons {
+    display: flex;
+    margin: 0 25px;
+}
+
+.top-section_red, .top-section_yellow, .top-section_green {
+    border-radius: 50%;
+    border: 1px solid black;
+    height: 10px;
+    margin-right: 5px;
+    width: 10px;
+}
+
+/*MAIN SCREEN section*/
+.left-container_main-section-container {
+    display: flex;
+    height: calc(100% - 50px);
+}
+
+.left-container_main-section {
+    height: 100%;
+    padding: 25px;
+    width: 500px;
+}
+
+.main-section_white {
+    background: #DEDEDE;
+    border: 3px solid black;
+    /*box shadow insert?*/
+    height: 325px;
+}
+
+.main-section_black {
+    background: #000000;
+    height: calc(100% - 50px);
+    width: calc(100% - 50px);
+    margin: 25px;
+    padding: 10px;
+}
+
+.main-screen {
+    border-radius: 15px;
+    height: 100%;
+    padding: 15px;
+}
+
+
+
+
+
 
 
 
