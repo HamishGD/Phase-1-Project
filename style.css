@@ -98,6 +98,18 @@ body {
     padding: 15px;
 }
 
+.screen-header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.poke-name {
+    color: #DEDEDE;
+    font-size: 25px;
+    font-weight: bold;
+}
+
 
 
 
