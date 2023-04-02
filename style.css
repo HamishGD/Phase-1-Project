@@ -218,7 +218,7 @@ body {
     grid-row: 3 / span 1;
 }
 
-.controller_buttons {
+.controllers_buttons {
     display: flex;
     justify-content: space-around;
     width: 100px;
