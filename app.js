@@ -1,5 +1,3 @@
-//const pokemonCount = 151;
-
 //DOM OBJECTS
 const mainScreen = document.querySelector('.main-screen');
 const pokeName = document.querySelector('.poke-name');
@@ -12,18 +10,18 @@ const pokeWeight = document.querySelector('.poke-weight');
 const pokeHeight = document.querySelector('.poke-height');
 const pokeMove = document.querySelector('.poke-move');
 const pokeListItems = document.querySelector('.list-item');
+const leftButton = document.querySelector('.left-button');
+const rightButton = document.querySelector('.right-button');
 
-
-
-
-
-//VARIABLES AND CONSTANTS ()
+//VARIABLES AND CONSTANTS
 const TYPES = [
     'normal', 'grass', 'fire', 'water', 'fighting', 'flying',
     'poison', 'ground', 'rock', 'bug', 'ghost', 'steel',
     'electric', 'psychic', 'ice', 'dark', 'dragon', 'fairy'
 ];
-
+//don't want the prev button to go anywhere!
+let prevUrl = null;
+let nextUrl = null;
 
 
 //FUNCTIONS
@@ -34,6 +32,11 @@ const resetScreen = () => {
        mainScreen.classList.remove(type);
     }
 };
+const handleRightButtonClick = () => {}
+
+//EVENT LISTENERS
+leftButton.addEventListener('click', );
+rightButton.addEventListener('click', );
 
 //get data for left side of screen
 //URL API
@@ -89,12 +92,13 @@ resetScreen();
 
             //if result data exists then we can restructure it cause it has 'name' and 'url' properties
             if (resultData) {
-                pokeListItem.textContent = name;
+                const { name, url} = resultData;
+                const urlArray = url.split('/');
+                const id = urlArray[urlArray.length -2];
+                pokeListItem.textContent = id + '.' + (name);
             } else {
             //if doesn't show up will return an empty string
                 pokeListItem.textContent = '';
-
-            
             }
         }
     });

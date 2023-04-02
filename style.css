@@ -7,8 +7,9 @@
 /*MAIN CLASS section*/
 body {
     display: flex;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Press Start 2P', cursive;
     justify-content: center;
+    background-image: url("img/red-8-bit-pokemon-hd-pokemon-game-poster-wallpaper-preview.jpg");
 }
 
 .pokedex {
